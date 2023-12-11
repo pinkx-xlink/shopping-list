@@ -50,10 +50,19 @@
         inputBar.value = "";
     }
     //li
+    const listItem = document.createElement('li');
+    listItem.classList.add('li');
+    myList.appendChild(listItem);
 
     //span
 
     //delete btn
+    const deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('button');
+    deleteBtn.textContent = "Delete";
+    listItem.appendChild(deleteBtn);
+    
+
     </script>
   </body>
 </html>
