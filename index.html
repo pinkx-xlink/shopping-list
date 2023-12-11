@@ -33,14 +33,12 @@
     const myList = document.querySelector('ul');
 
     const item = document.querySelector('input').value;
-    //myList.appendChild(item); 
-    
 
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
         const newItem = document.createElement('li');
         newItem.classList.add('li');
-        newItem.textContent =  item; // this is the problem...
+        newItem.textContent = this.item.value; // this is the problem...
         myList.appendChild(newItem);
 
         console.log(item); //this returns empty
