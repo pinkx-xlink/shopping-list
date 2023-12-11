@@ -24,6 +24,7 @@
       <label for="item">Enter a new item:</label>
       <input type="text" name="item" id="item">
       <button>Add item</button>
+      
     </div>
 
     <ul>
@@ -35,10 +36,13 @@
     const ul = document.createElement('ul');
 
     const input = document.querySelector('input');
+    input.classList.add(ul);
+    ul.textContent = `${input}`;
+    container.appendChild(ul);
 
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
-        
+
     })
 
     </script>
