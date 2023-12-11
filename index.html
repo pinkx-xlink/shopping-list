@@ -34,6 +34,7 @@
 
     </ul>
 
+
     <script>
     const container = document.querySelector('#container');
     
@@ -48,7 +49,9 @@
     shoppingList.appendChild(ul);
 
     const input = document.querySelector('#item');
-
+    input.classList.add('text');
+    shoppingList.appendChild(input);
+    
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
         shoppingList.appendChild(ul);
