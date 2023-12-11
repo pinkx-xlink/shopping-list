@@ -38,7 +38,7 @@
     button.addEventListener('click', () => {
         const newItem = document.createElement('li');
         newItem.classList.add('li');
-        newItem.textContent = ` ${item} `;
+        newItem.textContent = ` ${item} `; // this is the problem...
         myList.appendChild(newItem);
 
         console.log(`${this.input}`);
