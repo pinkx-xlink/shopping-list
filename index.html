@@ -26,14 +26,10 @@
       <input type="text" name="item" id="item">
       <button>Add item</button>
     </div>
-      
-      
     </div>
 
     <ul>
-
     </ul>
-
 
     <script>
     const container = document.querySelector('#container');
@@ -42,7 +38,6 @@
     shoppingList.classList.add('shoppingList');
     container.appendChild(shoppingList);
 
-      
     const ul = document.querySelector('ul');
     ul.classList.add('ul');
     ul.textContent = `${input}`;
@@ -51,9 +46,11 @@
     const input = document.querySelector('#item');
     input.classList.add('text');
     shoppingList.appendChild(input);
-    
+
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
+        
+
         shoppingList.appendChild(ul);
     })
 
