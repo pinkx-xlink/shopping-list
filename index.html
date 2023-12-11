@@ -35,17 +35,13 @@
     const container = document.querySelector('#container');
     
     const shoppingList = document.createElement('div');
-    shoppingList.classList.add('shoppingList');
-    container.appendChild(shoppingList);
+   
 
     const ul = document.querySelector('ul');
-    ul.classList.add('ul');
-    ul.textContent = `${input}`;
-    shoppingList.appendChild(ul);
+  
 
     const input = document.querySelector('#item');
-    input.classList.add('text');
-    shoppingList.appendChild(input);
+    
 
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
