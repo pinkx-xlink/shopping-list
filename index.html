@@ -37,8 +37,10 @@
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
         const newItem = document.createElement('li');
+        newItem.classList.add('li');
+        newItem.textContent = ` ${item} `;
+        myList.appendChild(newItem);
 
-        
         console.log(`${this.input}`);
         alert(`New item: ${item}`);
     })
