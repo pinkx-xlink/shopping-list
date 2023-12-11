@@ -32,14 +32,11 @@
     <script>
     const myList = document.querySelector('ul');
 
+    const item = document.querySelector('input');
     
-
     const button = document.querySelector('button');
     button.addEventListener('click', () => {
-        const item = document.querySelector('input');
-        item.classList.add('text');
-        item.textContent = "butt";
-        ul.appendChild('item');
+        
         console.log(`${this.input}`);
         alert(`New item: ${item}`);
     })
