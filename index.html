@@ -40,11 +40,12 @@
     button.addEventListener('click', () => {
         const newItem = document.createElement('li');
         newItem.classList.add('li');
-        newItem.textContent = ` ${item} `; // this is the problem...
+        newItem.textContent =  item; // this is the problem...
         myList.appendChild(newItem);
 
-        console.log(`${this.input}`);
-        alert(`New item: ${item}`);
+        console.log(item); //this returns empty
+        console.log(`${this.input}`); //this returns undefined
+        alert("New Item: " + `${this.input}`);
     })
 
     </script>
