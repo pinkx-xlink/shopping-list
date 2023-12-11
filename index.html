@@ -52,6 +52,7 @@
         deleteBtn.classList.add('button');
         deleteBtn.textContent = "Delete";
         newItem.appendChild(deleteBtn);
+        //deleteBtn.addEventListener('onclick', (deleteItem()));
 
         clearInput();
         //.log(item); //this returns empty
@@ -64,8 +65,8 @@
     }
 
     function deleteItem() {
-        deleteBtn = document.querySelector('item');
-        item.value = "";
+        const deleteBtn = document.querySelector('item');
+        ;
     }
     // //li
     // const listItem = document.createElement('li');
