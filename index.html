@@ -52,7 +52,7 @@
         deleteBtn.textContent = "Delete";
         newItem.appendChild(deleteBtn);
         deleteBtn.addEventListener('click', () => {
-            let deleteItem = newItem.removeChild(newItem);
+            let deleteItem = newItem.removeChild(item);
         });
 
         clearInput();
