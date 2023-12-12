@@ -40,7 +40,6 @@
         newItem.classList.add('li');
         newItem.textContent = this.item.value; // this is the problem...
         myList.appendChild(newItem);
-
             
         //span
         const mySpan = document.createElement('span');
@@ -53,7 +52,7 @@
         deleteBtn.textContent = "Delete";
         newItem.appendChild(deleteBtn);
         deleteBtn.addEventListener('click', () => {
-            
+            let deleteItem = newItem.removeChild(newItem);
         });
 
         clearInput();
