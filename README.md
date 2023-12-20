@@ -7,3 +7,9 @@ and extracting/applying user inputs.
 Credits:
 
 bow: https://i.pinimg.com/originals/77/ca/39/77ca39193d0e62af432bb59a4a53a03d.png
+
+
+heart: https://webstockreview.net/images/clipart-heart-hand-drawn-1.png
+
+
+flower: https://webstockreview.net/images/daisy-clipart-daisy-outline-11.png
