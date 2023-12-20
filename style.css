@@ -18,14 +18,16 @@ h1 {
     font-size: 55px;
 }
 
-#feather-img {
-    
+#heart{
+    margin-right: 15px;
+    margin-bottom: 25px;
 }
-
 li {
     font-size: 25px;
     margin-bottom: 10px;
     list-style:none;
+    display: flex;
+    align-items: center;
 }
 
 li button {

@@ -39,7 +39,8 @@
         newItem.classList.add('li');
         newItem.textContent = this.item.value; // this is the problem...
         newItem.innerHTML = `
-        <image src="./img/heart-line.png" height="30px"/>
+        <image src="./img/heart-line.png" height="30px" id="heart"/>
+        <p>${this.item.value}</p>
         `;
         myList.appendChild(newItem);
             
