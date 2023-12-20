@@ -5,13 +5,19 @@ body {
 }
 
 .container {
-    font-family: scriptify;
+    font-family: "Zeyada", sans-serif;
+    font-weight: bolder;
     height: 100vh;
     border-left: 3px solid red;
     margin-left: 55px;
 }
 
+h1 {
+    font-size: 55px;
+}
+
 li {
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
