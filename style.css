@@ -3,6 +3,11 @@ body {
     background-image: repeating-linear-gradient(1deg, pink, white 15%, blue 16%);
 }
 
+.container {
+    height: 100vh;
+    border-left: 3px solid red;
+}
+
 li {
     margin-bottom: 10px;
 }
