@@ -8,7 +8,8 @@ body {
     font-family: "Zeyada", sans-serif;
     font-weight: bolder;
     height: 100vh;
-    border-left: 3px solid red;
+    border-left: 3px solid rgba(255, 0, 0, 0.582);
+    margin-top: -40px;
     margin-left: 55px;
 }
 
@@ -16,6 +17,14 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 55px;
+}
+
+#item {
+    min-height: 35px;
+    border-style: none;
+    background-color: #9c3e8567;
+    border-bottom: dashed gray;
+    border-radius: 5px;
 }
 
 #heart{
