@@ -19,12 +19,24 @@ h1 {
     font-size: 55px;
 }
 
+#addItem {
+    display: flex;
+    flex-direction:column;
+}
+
 #item {
     min-height: 35px;
+    height: 55px;
     border-style: none;
     background-color: #9c3e8567;
     border-bottom: dashed gray;
     border-radius: 5px;
+}
+#bow-image {
+    transform: skew(15deg, -20deg);
+    display: flex;
+    
+
 }
 
 #heart{
