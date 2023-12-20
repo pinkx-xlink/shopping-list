@@ -16,7 +16,7 @@
 
     <div>
       <label for="item" id="newItem">
-        <image src="img/feather-and-ink.jpg" width="50px" id="feather-img"></image>
+        <image src="img/pen-pixel-art.png" width="50px" id="pencil-img"></image>
         Enter a new item:</label>
       <input type="text" name="item" id="item">
       <button>Add item</button>
@@ -37,6 +37,9 @@
         const newItem = document.createElement('li');
         newItem.classList.add('li');
         newItem.textContent = this.item.value; // this is the problem...
+        newItem.innerHTML = `
+        <image src="./img/pretty-bow.png" height="35px" id="bow-image"/>
+        `;
         myList.appendChild(newItem);
             
         //span

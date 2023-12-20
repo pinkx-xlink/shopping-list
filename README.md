@@ -6,6 +6,4 @@ and extracting/applying user inputs.
 
 Credits:
 
-feather img: https://thumbs.dreamstime.com/b/vector-pixel-art-feather-pen-vector-pixel-art-feather-pen-isolated-cartoon-149872238.jpg
-
-pencil img: https://thumbnail.imgbin.com/17/21/13/imgbin-pixel-art-pencil-others-UwjV4qStVQMfqL8Mf7ZjyYwDS_t.jpg
+bow: https://i.pinimg.com/originals/77/ca/39/77ca39193d0e62af432bb59a4a53a03d.png
