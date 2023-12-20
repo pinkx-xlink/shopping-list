@@ -18,6 +18,10 @@ h1 {
     justify-content: center;
     font-size: 55px;
 }
+#flower-doodle {
+    display: flex;
+    transform: skew(35deg, -60deg);
+}
 
 #addItem {
     display: flex;
@@ -35,8 +39,6 @@ h1 {
 #bow-image {
     transform: skew(15deg, -20deg);
     display: flex;
-    
-
 }
 
 #heart{
