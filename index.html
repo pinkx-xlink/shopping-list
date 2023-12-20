@@ -20,6 +20,7 @@
         Enter a new item:</label>
       <input type="text" name="item" id="item">
       <button>Add item</button>
+      <image src="./img/pretty-bow.png" height="35px" id="bow-image"/>
     </div>
 
     <ul>
@@ -38,7 +39,7 @@
         newItem.classList.add('li');
         newItem.textContent = this.item.value; // this is the problem...
         newItem.innerHTML = `
-        <image src="./img/pretty-bow.png" height="35px" id="bow-image"/>
+
         `;
         myList.appendChild(newItem);
             
