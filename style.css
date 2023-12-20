@@ -20,7 +20,7 @@ h1 {
 }
 #flower-doodle {
     display: flex;
-    transform: skew(35deg, -60deg);
+    transform: skew(35deg, -30deg);
 }
 
 #addItem {
@@ -64,4 +64,7 @@ li button {
     border-style: none;
     transform: skew(-15deg, -5deg);
     box-shadow: 1px 13px 2px rgb(107, 1, 54);
+}
+#eye-img {
+    padding: 160px;
 }
